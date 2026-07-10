@@ -1,0 +1,29 @@
+# Keil 编译产物
+*.o
+*.d
+*.crf
+*.lnp
+*.axf
+*.htm
+*.dep
+*.iex
+*.map
+*.lst
+*.uvguix
+*.scvd
+JLinkLog.txt
+*.bin
+*.hex
+
+# MDK-ARM 下的一些临时文件
+MDK-ARM/*/RTE/
+MDK-ARM/*/DebugConfig/
+
+# CubeMX 本地缓存（每个人本地不同）
+.mxproject
+
+# 杂项
+*.tmp
+*.bak
+*.swp
+.DS_Store
